@@ -1,0 +1,59 @@
+---
+layout: default
+title: Pranjal For Lit
+subtitle: Test
+---
+
+h1.has-text-centered.homeTitle Pranjal For Lit
+
+.columns.is-centered.is-mobile.container.is-fluid
+    .home.column.is-half.box
+     | {{ content }}
+
+     .columns.is-centered.is-mobile
+      .homeDesc.column.is-10
+        | {% img pranjal %}
+        | {% capture markInc %}
+        | {% include home/secOpen.md %}
+        | {% endcapture %}
+        | {{ markInc | markdownify }}
+
+     h2.has-text-centered Hindi Declaration
+     .columns.is-centered.is-mobile
+         .homeDesc.column.is-10.hindi
+             | {% capture markInc %}
+             | {% include home/secHin.md %}
+             | {% endcapture %}
+             | {{ markInc | markdownify }}
+
+     h2.has-text-centered Agenda
+     .columns.is-centered.is-desktop
+      .column.is-5
+       h3.has-text-centered Non Funded
+       .homeDesc
+         | {% capture markInc %}
+         | {% include home/nfAgenda.md %}
+         | {% endcapture %}
+         | {{ markInc | markdownify }}
+      .column.is-5
+       h3.has-text-centered Funded
+       .homeDesc
+         | {% capture markInc %}
+         | {% include home/fAgenda.md %}
+         | {% endcapture %}
+         | {{ markInc | markdownify }}
+
+     //- ul.post-list
+     //-   | {% for post in site.posts %}
+     //-   li
+     //-     | {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+     //-     span.post-meta {{ post.date | date: date_format }}
+
+     //-     h3
+     //-       a.post-link(href="{{ post.url | relative_url }}")
+     //-         |{{ post.title | escape }}
+     //-   | {% endfor %}
+
+     //- p.rss-subscribe subscribe 
+     //-   a(href="{{ '/feed.xml' | relative_url }}") via RSS
+

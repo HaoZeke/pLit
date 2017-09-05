@@ -1,0 +1,38 @@
+---
+layout: default
+pagination: 
+  enabled: true
+title: The Litanjal Team
+permalink: /team/
+---
+
+.columns.is-centered.is-mobile.container.is-fluid.wrap
+	| {% for member in site.data.members %}
+	.column
+		.card.cardEqualizer
+			.card-image
+				| {% img '{{ member.image }}' %}
+			.card-content
+				.media
+					.media-content
+						p.title.is-4 {{ member.name }}
+						p.subtitle
+							em {{ member.year }}, 
+							| {{ member.branch }}.
+				.content.is-centered
+					a.button.is-warning.modal-button(data-target='#modal') Credentials
+					.modal#modal
+						.modal-background
+						.modal-card
+							header.modal-card-head
+								p.modal-card-title Credentials
+								button.delete.modal-button(data-target='#modal' aria-label='Del')
+							section.modal-card-body
+								ul.cred
+									| {% for notable in member.notables %}
+									li {{ notable.cred }}
+									| {% endfor %}
+							footer.modal-card-foot
+								button.button.modal-button(data-target='#modal') Close
+	| {% endfor %}
+

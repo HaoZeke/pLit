@@ -1,0 +1,33 @@
+footer.site-footer
+
+  .container.content.has-text-centered
+
+    h2.footer-heading {{ site.title | escape }}
+
+    .columns
+      .column
+        ul.contact-list
+          li
+            | {% if site.author %}
+            | {{ site.author | escape }}
+            | {% else %}
+            | {{ site.title | escape }}
+            | {% endif %}
+          | {% if site.email %}
+          li
+            a(href="mailto:{{ site.email }}")
+              | {{ site.email }}
+          | {% endif %}
+
+      .column
+        ul.social-media-list
+          | {% if site.github_username %}
+          li
+            span
+              a(href="https://github.com/{{ site.github_username }}") HaoZeke  
+                i.fa.fa-github 
+          | {% endif %}
+
+      .column
+        p
+          | {{ site.description | escape }}
