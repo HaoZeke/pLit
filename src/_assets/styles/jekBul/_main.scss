@@ -77,8 +77,6 @@ h3 {
 	flex-wrap: wrap;
 }
 
-
-
 .cardEqualizer {
    display:flex;
    flex-direction: column;
@@ -87,6 +85,10 @@ h3 {
    .card-footer {
    margin-top: auto;
   }
+}
+
+.modal-card-foot {
+	margin: 0 0 0 0;
 }
 
 .myHero {
