@@ -20,19 +20,19 @@ permalink: /team/
 							em {{ member.year }}, 
 							| {{ member.branch }}.
 				.content.is-centered
-					a.button.is-warning.modal-button(data-target='#modal') Credentials
-					.modal#modal
+					a.button.is-warning.modal-button(data-target='#modal{{ forloop.index0 }}') Credentials
+					.modal#modal{{ forloop.index0 }}
 						.modal-background
 						.modal-card
 							header.modal-card-head
-								p.modal-card-title Credentials
-								button.delete.modal-button(data-target='#modal' aria-label='Del')
+								p.modal-card-title {{ member.name }}'s Credentials
+								button.delete.modal-button(data-target='#modal{{ forloop.index0 }}' aria-label='Del')
 							section.modal-card-body
 								ul.cred
 									| {% for notable in member.notables %}
 									li {{ notable.cred }}
 									| {% endfor %}
 							footer.modal-card-foot
-								button.button.modal-button(data-target='#modal') Close
+								button.button.modal-button(data-target='#modal{{ forloop.index0 }}') Close
 	| {% endfor %}
 
