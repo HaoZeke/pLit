@@ -7,6 +7,7 @@ $size-padding-lr: 2.5em;
 body {
 	background: asset-url("bg.jpg", image)  no-repeat center center fixed;
 	min-height: 100vh;
+	background-size: cover;
 }
 
 .page-content {
