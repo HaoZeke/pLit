@@ -21,6 +21,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  HaoZeke
 author: Rohit Goswami
+google_analytics: UA-70004924-2
 
 # Build settings
 source: src
