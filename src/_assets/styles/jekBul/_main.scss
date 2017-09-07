@@ -16,18 +16,22 @@ body {
 }
 
 footer {
-	color: #FFFF;
+	color: #FFF;
 	margin-top: 4em;
 
 	.footer-heading {
-		color: #FFFF;
+		color: #FFF;
 		font-weight: 600;
 		text-transform: uppercase; 
 	}
 }
 
+a:hover {
+	color: #FFF;
+}
+
 h1 {
-	color: #FFFF;
+	color: #FFF;
 	font-weight: 700;
 	font-size: 3em;
 	letter-spacing: 0.075em;
@@ -72,7 +76,7 @@ h3 {
 .homeTitle {
 	font-size: 4em;
 	font-family: 'Crimson Text', serif;
-	color: #FFFF;
+	color: #FFF;
 }
 
 .wrap {
@@ -95,7 +99,7 @@ h3 {
 
 .myHero {
 	h1 {
-		color: #FFFF;
+		color: #FFF;
 		font-size: 2.2em;
 		font-family: 'Crimson Text', serif;
 	}
@@ -164,6 +168,19 @@ h3 {
 				font-size: 2.5em;
 			}
 // Footer
+
+.listMe {
+padding-left: 1.3em;
+	
+	&::before {
+  content: "\f1f9"; /* FontAwesome Unicode */
+  color: $primary;
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+	}	
+}
 
 ul.icons {
 			cursor: default;
