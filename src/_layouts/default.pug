@@ -6,7 +6,7 @@ html(lang="{{ page.lang | default: site.lang | default: 'en' }}")
   body
 
     | {% include header.html %}
-
+    | {% include hero.pug %}
     main.page-content(aria-label="Content")
         | {{ content }}
 
