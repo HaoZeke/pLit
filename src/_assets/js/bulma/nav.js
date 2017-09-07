@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+/*document.addEventListener('DOMContentLoaded', function () {
 
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
@@ -22,4 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
   }
 
-});
+});*/
+
+
+u('.navbar-burger').on('click',function(e) {
+u(this).toggleClass('is-active')
+u('.navbar-menu').toggleClass('is-active')})
