@@ -8,7 +8,7 @@ permalink: /team/
 
 .columns.is-centered.is-mobile.container.is-fluid.wrap
 	| {% for member in site.data.members %}
-	.column
+	.column.isFixedFlex
 		.card.cardEqualizer
 			.card-image
 				| {% img '{{ member.image }}' %}
