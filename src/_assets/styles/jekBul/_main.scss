@@ -95,7 +95,8 @@ h3 {
 .myHero {
 	h1 {
 		color: #FFFF !important;
-		font-size: 3em;
+		font-size: 2.2em;
+		font-family: 'Crimson Text', serif;
 	}
 }
 
@@ -105,6 +106,19 @@ h3 {
 
 .cred {
 	line-height: 2em;
+}
+
+.pCred {
+	li {
+		padding-left: 1.3em;
+	}
+	li:before {
+  content: "\f005"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+	}
 }
 
 .logo {

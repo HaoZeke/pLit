@@ -1,0 +1,45 @@
+---
+layout: default
+title: Pranjal's Credentials
+permalink: /cred/
+---
+
+<div class="columns is-centered is-mobile container is-fluid">
+  <div class="home column is-10-mobile is-half-desktop box">
+    <div class="columns is-centered is-mobile">
+      <div class="homeDesc column is-10">
+        {% img pranCred %}
+      </div>  
+    </div>
+    <h2 class="has-text-centered" id="cred">Credentials</h2>
+    <div class="columns is-centered is-desktop">
+      <div class="column is-4">
+        <h3 class="has-text-centered">Literary</h3>
+        <div class="homeDesc cred pCred">
+{% capture markInc %}
+{% include cred/lit.md %}
+{% endcapture %}
+{{ markInc | markdownify }}        
+        </div>
+      </div>
+      <div class="column is-4">
+        <h3 class="has-text-centered">Managerial</h3>
+        <div class="homeDesc cred pCred">
+{% capture markInc %}
+{% include cred/mana.md %}
+{% endcapture %}
+{{ markInc | markdownify }}          
+        </div>
+      </div>
+      <div class="column is-4">
+        <h3 class="has-text-centered">Non Literary</h3>
+        <div class="homeDesc cred pCred">
+{% capture markInc %}
+{% include cred/nLit.md %}
+{% endcapture %}
+{{ markInc | markdownify }}         
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
