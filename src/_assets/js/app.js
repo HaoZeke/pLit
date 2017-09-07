@@ -1,4 +1,3 @@
-//= require vendor/sticky-head.js
 //= require vendor/umbrella.min.js
 //= require vendor/smooth-scroll.min.js
 //= require bulma/nav.js

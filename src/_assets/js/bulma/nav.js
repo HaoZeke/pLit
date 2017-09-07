@@ -30,5 +30,5 @@ u(this).toggleClass('is-active')
 u('.navbar-menu').toggleClass('is-active')})
 
 // Use Sticky Header
-var nav = document.getElementById('mainHead')
-sticky(nav);
+// var nav = document.getElementById('mainHead')
+// sticky(nav);
