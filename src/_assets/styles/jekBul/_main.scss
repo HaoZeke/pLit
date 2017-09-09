@@ -85,7 +85,7 @@ h3 {
 }
 
 .isFixedFlex {
-	@media (min-width: $tablet) {
+	@media (min-width: 340px) {
 		flex-grow: 0;
 	}
 }
