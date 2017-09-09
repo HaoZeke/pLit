@@ -19,7 +19,6 @@ permalink: /team/
 						p.subtitle
 							em {{ member.year }}, 
 							| {{ member.branch }}.
-				| {% if member.notables %}
 				.content.is-centered
 					a.button.is-warning.modal-button(data-target='#modal{{ forloop.index0 }}') Credentials
 					.modal#modal{{ forloop.index0 }}
@@ -35,6 +34,5 @@ permalink: /team/
 									| {% endfor %}
 							footer.modal-card-foot
 								button.button.modal-button(data-target='#modal{{ forloop.index0 }}') Close
-				| {% endif %}
 	| {% endfor %}
 
