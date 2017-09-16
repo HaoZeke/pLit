@@ -4,6 +4,6 @@ This is a site dedicated to the future of harcourtian growth. An offering to the
 Deployed and built using **Netlify**
 
 ### Acknowledgements
-- [Hugo](https://gohugo.io)
+- [Jekyll](http://jekyllrb.com/)
 - [HTML5 UP](https://html5up.net/)
 - [Netlify](https://app.netlify.com/)
