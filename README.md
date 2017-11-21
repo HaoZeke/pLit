@@ -1,4 +1,6 @@
 # pLit
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/HaoZeke/pLit.svg)](https://greenkeeper.io/)
 This is a site dedicated to the future of harcourtian growth. An offering to the altar of idiocy rampant there.
 
 Deployed and built using **Netlify**
