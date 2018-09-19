@@ -1,51 +1,84 @@
 ==================================================================
-https://keybase.io/haozeke                                                   
+https://keybase.io/haozeke
 --------------------------------------------------------------------
-                    
+
 I hereby claim:
 
-  * I am an admin of https://pranjalforlit.club
+  * I am an admin of https://plit.netlify.com
   * I am haozeke (https://keybase.io/haozeke) on keybase.
-  * I have a public key ASD16mK22mUSUpxjZqrfdWQNoaQjf6SH2mhJsmi4B_J2jAo                                                                                                                                                                                                                                                       To do so, I am signing this object:                                                                                                                                                                                                                                                                                           {                                                                                                                                                                "body": {                                                                                                                                                        "key": {                                                                                                                                                         "eldest_kid": "01208ed13a74c208e57451702e57550c266f31f877ea9d2786b13e00769e447447d00a",                                                                        "host": "keybase.io",                                                                                                                                 
-      "kid": "0120f5ea62b6da6512529c6366aadf75640da1a4237fa487da6849b268b807f2768c0a",
-      "uid": "8ca27cf24cf6c9de4076b171e8004019",              
+  * I have a public key with fingerprint 74B1 F67D 8E43 A94A 7554  0768 9CCC E364 02CB 49A6
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208ed13a74c208e57451702e57550c266f31f877ea9d2786b13e00769e447447d00a",
+      "fingerprint": "74b1f67d8e43a94a755407689ccce36402cb49a6",
+      "host": "keybase.io",
+      "key_id": "9ccce36402cb49a6",
+      "kid": "0101947d2edecf341ec640852c7742ca75d68c479eb56f270b86dfd9621d39c2db840a",
+      "uid": "8ca27cf24cf6c9de4076b171e8004019",
       "username": "haozeke"
     },
-    "merkle_root": {                                                
-      "ctime": 1513967186,
-      "hash": "8549fa56ed3733cf64487a4341b1af44a793618e997dd8e73598b85caf56b68c9eff7b81d51ed118ca5b0178f534687b5f52fb13c2149b000c6fac0375ea0ac7",
-      "hash_meta": "3fc31285be91cbb32f85f39628ccac25f3713a126f417449faed5301f0710c25",
-      "seqno": 1850496
+    "merkle_root": {
+      "ctime": 1537348608,
+      "hash_meta": "11e07271021dcb07f2a3000482acd5e913b79e29785bcc34c9a3f2ba76414d02",
+      "seqno": 3630686
+    },
+    "revoke": {
+      "sig_ids": [
+        "260037c8a125d807fb0c586936c0eec3b45c4fc0a6ee04d9e682194f81f6cf220f"
+      ]
     },
     "service": {
-      "hostname": "pranjalforlit.club",
+      "hostname": "plit.netlify.com",
       "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 1
   },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "1.0.38"
-  },
-  "ctime": 1513967222,
-  "expire_in": 504576000,
-  "prev": "95f44b34e4eb56cc939e2a5b41e906ade741f4611da7b0f48d6ee72ee644f319",
-  "seqno": 39,
+  "ctime": 1537348611,
+  "expire_in": 157680000,
+  "prev": "db26ab04762ccc4737e73de1ac4fc901f2dd81dab15e14defba6bbd615f862f3",
+  "seqno": 62,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9epittplElKcY2aq33VkDaGkI3+kh9poSbJouAfydowKp3BheWxvYWTFA0p7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwOGVkMTN
-hNzRjMjA4ZTU3NDUxNzAyZTU3NTUwYzI2NmYzMWY4NzdlYTlkMjc4NmIxM2UwMDc2OWU0NDc0NDdkMDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjVlYTYyYjZkYTY1MTI1MjljNjM2NmFhZG
-Y3NTY0MGRhMWE0MjM3ZmE0ODdkYTY4NDliMjY4YjgwN2YyNzY4YzBhIiwidWlkIjoiOGNhMjdjZjI0Y2Y2YzlkZTQwNzZiMTcxZTgwMDQwMTkiLCJ1c2VybmFtZSI6Imhhb3pla2UifSwibWVya2xlX3Jvb3QiO
-nsiY3RpbWUiOjE1MTM5NjcxODYsImhhc2giOiI4NTQ5ZmE1NmVkMzczM2NmNjQ0ODdhNDM0MWIxYWY0NGE3OTM2MThlOTk3ZGQ4ZTczNTk4Yjg1Y2FmNTZiNjhjOWVmZjdiODFkNTFlZDExOGNhNWIwMTc4ZjUz
-NDY4N2I1ZjUyZmIxM2MyMTQ5YjAwMGM2ZmFjMDM3NWVhMGFjNyIsImhhc2hfbWV0YSI6IjNmYzMxMjg1YmU5MWNiYjMyZjg1ZjM5NjI4Y2NhYzI1ZjM3MTNhMTI2ZjQxNzQ0OWZhZWQ1MzAxZjA3MTBjMjUiLCJ
-zZXFubyI6MTg1MDQ5Nn0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJwcmFuamFsZm9ybGl0LmNsdWIiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOj
-F9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zOCJ9LCJjdGltZSI6MTUxMzk2NzIyMiwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI5NWY0NGIzN
-GU0ZWI1NmNjOTM5ZTJhNWI0MWU5MDZhZGU3NDFmNDYxMWRhN2IwZjQ4ZDZlZTcyZWU2NDRmMzE5Iiwic2Vxbm8iOjM5LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQGYoVfpipmCOjfPbzvh0TWIoo+MCtpXfisxY
-vKb6HcuyjG8hKFTLxaLTd1FxpPKgVHM+vDeJRh/fqeKqcb95XAWoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCOuLsOpVY/s2Ofl9SwIYCeJVEsa4oG2wwBkjnGt4yGAaN0YWfNAgKndmVyc2lvbgE=
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.77
+Comment: https://keybase.io/crypto
+
+yMP/AnicbVNrbBVFGG0LWFoebaFojChxf0BqazM7uzuze1HehSKCIJbWFrzdnZml
+6+29e9ndW7hCY1BoQkHDo5YQi8bybEuxEFKFQkirgNgKiAGEkPjg6aM8pASBKM42
+EBNjssnObs53zvnO982Xg/okpCbWdV2gSZ1TtyZ2dsRjCSX1mX0WC4ZN40JgsRBi
+vS9WTpnrBUMWFQICECFQGRUlHcvEPypYVkQMID8oCiAQIVMSTRVjpmsUYhUZosQA
+wEhjsoz5QwHQhRzBtCLzmRN1rIjHabFsiCbCVGWypGuyzrlkXqNqhBAmIRlAYsia
+jnhhme36Fdycobss17L5P/4R7LX3P/hHvoGocXHIKCOmJIuMcJSqQIKxDAkXpEgl
+MtaYoSATYmCoiJpUQ1CkkkYgNVS513esl04lOsTEhDIxEdEo880aIhaZCoDMlXyg
+y5yIHmYcXabbb7EQEypzhDBzQuUs6Ni252dLPMtHiIqEJVlFQOX96W5ZMMw8nReK
+IgMYYhFwF8QA2IS6BLiCCnVCFaaJksEdQw2rikGIJBNNl0xo6BjJokwB5DZctiBi
+CwEJSQCpiDtwWIXNvXBx15rPU3OFQIkAEQASJqouQoWqXMgARFGRJiECGCOSIStE
+NgnQEWNAphpDKuR5miqfGo8BAlOYV+mLORUW6SX3x/Sw/Wi55eVGmFdumfFcYoe5
+q6hjezaxy/1wPC/qBvxsvHjUhy9kRvAhUdCwIpQvCq+oYI5r2RGeFUf+JzZRzBHY
+oqjlsKDlIxS+OTwm4OuwCk5JDYh0A8gYQb4gMpYwwxJlou43pQHRhJSqItUNUWE8
+OGYaOjIMikTFVBE0pX9zRJD71OdzTp5eRPdiDh9rR/vcvgmJqQmP9Uvyb1BCakr6
+o3v117a0B5XNBTg5lpfystOTf/ZvMmH2ucamyTfWXj9UaF9L/4mOT+poeuq5/j3H
+jvSLX/52Seb7x8ZkJX9QdKGg/+AVa+6duFq45N1ayz1y5vczCxsyZhW2SR8XLrev
+N9rG6R+uDg7d/SXxWfNw8cYxd9XVLcMG3szft2Da6q339+zr2t/WUHk26+Dtzrra
+cVuvbNkVNobI3X1n3498V1gqTByc1a2arLJ61YTALuVSVm6mk97diYOt2Z0n0rMy
+N84ozhu5Y/RHzSdnT3bD1y/mDX1m74j6KeuK6uZ6X1y7doPu1LLHVN1YEXqtH57y
+0ufx7POxmj8/HJ7fE0yr/2z4z3vqn27zRje8OuPCm1Hj+YLk0O2U5u7zX+V/emD7
+H17a0KWb869M2bRm9Zmzy+n2yrzmjIylu3Z2tZLvdywwAocX1b63c9WPbnTZuZOj
+RimBiy2xjk+S56w8OvO4uWHJrVNa8Rtjb7YtLDu0+f7N8YVP7K0dMNQLp1Vtb03t
+qiq60jhu+u5w0+Pr2t2+X8/ZfTmUnhCfftp8Mt6yJjKkeP/uLaXK2s726hesQOCd
+3AGnXrlXVfIiir3uZFy9NWGaNS192/rqww9qGqxN4rn69T357ROn7q261JjSSu/Q
+38SxpTPfrikuOTp67LADv458e2WwaVBXkmkH5s0dUVgaStswadLAO32y3dPfmAeX
+zyqoa2k4Xl1TtCyn6R9oA/85
+=YV6G
+-----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
